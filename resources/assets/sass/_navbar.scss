@@ -1,0 +1,27 @@
+.navbar{
+  background: linear-gradient(#6a4b95, #48468b);
+  color: #f5f8fa;
+  padding: 30px 50px;
+  font-size: 25px;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .navbar-brand{
+      margin-right: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .links{
+      display: inline;
+      .nav-link{
+        margin: 0 100px;
+        font-weight: 300;
+        &:hover{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+}

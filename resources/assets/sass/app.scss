@@ -1,0 +1,26 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// Custom
+@import "reset";
+@import "home";
+@import "create-edit";
+@import "messages";
+@import "navbar";
+@import "single-post";
+
+body{
+  font-family: Roboto, sans-serif;
+  color: #333333;
+  .container{
+    max-width: 1100px;
+    margin: auto;
+  }
+}
