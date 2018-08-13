@@ -1,7 +1,7 @@
 An app to upload and store resumes:
-homepage: all resumes by date (desc)
-create, edit, delete applicant's info (name/email fields, job category selection, file upload) 
-view single applicant's page
+homepage: all resumes by date (desc); 
+create, edit, delete applicant's info (name/email fields, job category selection, file upload) ;  
+view single applicant's page; 
 view single applicant's resume
 
 **Laravel + MySQL + SASS**
